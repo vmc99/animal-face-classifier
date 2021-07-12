@@ -85,10 +85,8 @@ def initiate_model():
     num_classes = 3
     model = ResNet(in_channels, num_classes)
     device = torch.device('cpu')
-    MODEL_URL = 'https://github.com/vmc99/animal-face-classifier/releases/download/1.0.0-alpha/animal-face-detection_new.pth'
-    state_dict = torch.hub.load_state_dict_from_url(MODEL_URL)
-    # PATH = 'animal-face-classifier_new.pth'
-    model.load_state_dict(state_dict)
+    PATH = 'animal-face-detection_new.pth'
+    model.load_state_dict(torch.load(PATH, map_location=device))
     model.eval()
 
     return model
