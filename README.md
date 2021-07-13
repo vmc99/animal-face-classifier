@@ -5,10 +5,4 @@ This is a simple image classification web app to predict animal faces into three
 
 ![Demo](demo_video/streamlit-app-demo.gif)
 
-[![Demo Video](demo_video/poster-image.png)](demo_video/streamlit-app-demo-video.mp4)
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="demo_video/poster-image.png">
-    <source src="demo_video/streamlit-app-demo-video.mp4" type="video/mp4">
-  </video>
-</figure>
+https://user-images.githubusercontent.com/54739363/125415234-811f85bb-6a2b-41aa-83df-92a922df59cb.mp4
