@@ -3,6 +3,8 @@ This is a simple image classification web app to predict animal faces into three
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/vmc99/animal-face-classifier/main/app.py)
 
+![Demo](demo_video/streamlit-app-demo.gif)
+
 [![Demo Video](demo_video/poster-image.png)](demo_video/streamlit-app-demo-video.mp4)
 
 <figure class="video_container">
